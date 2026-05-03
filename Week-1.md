@@ -32,6 +32,8 @@ OWASP Top 10 is a list of critical web application security risks.
 - Mapped application structure
 
 ##  Screenshots
+OWASP Juice Shop:
+<img width="1918" height="968" alt="Screenshot_2026-04-28_11_57_41" src="https://github.com/user-attachments/assets/21b70da4-dff3-44a4-8fff-dacfc71c8950" />
 
 
 ##  Outcome
