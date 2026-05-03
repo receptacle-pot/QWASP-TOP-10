@@ -33,7 +33,12 @@ OWASP Top 10 is a list of critical web application security risks.
 
 ##  Screenshots
 OWASP Juice Shop:
+
 <img width="1918" height="968" alt="Screenshot_2026-04-28_11_57_41" src="https://github.com/user-attachments/assets/21b70da4-dff3-44a4-8fff-dacfc71c8950" />
+
+DVWA :
+
+<img width="1918" height="968" alt="Screenshot_2026-05-03_10_12_15" src="https://github.com/user-attachments/assets/afe90e15-e355-424a-a371-8fefb3bec0ee" />
 
 
 ##  Outcome
