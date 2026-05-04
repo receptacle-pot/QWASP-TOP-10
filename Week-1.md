@@ -76,5 +76,5 @@ Environment successfully configured and ready for testing.
 performed hand-on security testing based on OWASP TOP 10 by setting Vulnerable environment.it helped me understand how security testing done in real-world application.it increases my knowledge
 
 ## Conclusion
-In Week 2, I performed vulnerability testing on DVWA/Juice Shop focusing on OWASP Top 10. I used Burp Suite to intercept and modify requests. I successfully exploited SQL Injection to bypass login, performed XSS to execute scripts, tested broken authentication using weak credentials, and identified sensitive data exposure through unencrypted traffic.
+In Week 2, I performed vulnerability testing on DVWA/Juice Shop focusing on OWASP Top 10. I used Burp Suite to intercept and modify requests. I successfully exploited SQL Injection to bypass login, performed XSS to execute scripts, tested broken authentication using weak credentials, and identified sensitive data exposure through unencrypted traffic. Hence, here we have completed our week 1 task successfully.
 
