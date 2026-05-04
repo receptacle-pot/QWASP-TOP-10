@@ -5,6 +5,17 @@
 ##  OWASP Top 10
 OWASP Top 10 is a list of critical web application security risks.
 
+- Injection
+- Broken Authentication
+- Sensitive Data Exposure
+- XML External Entities (XXE)
+- Broken Access Control
+- Security Misconfiguration
+- XSS
+- Insecure Deserialization
+- Using Components with Vulnerabilities
+- Insufficient Logging
+
 ##  Environment Setup
 
 ### OWASP Juice Shop
@@ -32,7 +43,7 @@ OR :
 ### Burp Suite Configuration
 - Enabled proxy (127.0.0.1:8080)
 - Configured browser proxy
-- Installed CA certificate
+- Used Intruder and repeater
 
 ##  Reconnaissance
 - Intercepted HTTP requests
@@ -51,9 +62,19 @@ OR :
 <img width="1918" height="968" alt="Screenshot_2026-05-03_10_12_15" src="https://github.com/user-attachments/assets/afe90e15-e355-424a-a371-8fefb3bec0ee" />
 
 
+
+## Burpe-Suite :
+
+<img width="1918" height="968" alt="Screenshot_2026-05-04_01_36_51" src="https://github.com/user-attachments/assets/6ff96bd5-48e1-430e-b7e0-36dcf1ada6fa" />
+
+
+
 ##  Outcome
 Environment successfully configured and ready for testing.
 
 ## work experience
 performed hand-on security testing based on OWASP TOP 10 by setting Vulnerable environment.it helped me understand how security testing done in real-world application.it increases my knowledge
+
+## Conclusion
+In Week 2, I performed vulnerability testing on DVWA/Juice Shop focusing on OWASP Top 10. I used Burp Suite to intercept and modify requests. I successfully exploited SQL Injection to bypass login, performed XSS to execute scripts, tested broken authentication using weak credentials, and identified sensitive data exposure through unencrypted traffic.
 
