@@ -30,6 +30,8 @@ Performed SQL Injection on a shopping website to get access to all the items pre
 
 
 
+
+
 ## 2. Broken Authentication
 
 Description : Broken authentication is a critical security vulnerability occurring when applications improperly manage user sessions and identities, allowing attackers to compromise passwords, keys, or session tokens.
@@ -77,5 +79,10 @@ Solution : Burp Suite Intruder Attack
 - Note the correct password.
 - Login with discovered username & password.
 - Access user account page and complete the lab.
+
+### Screenshot :
+
+<img width="1918" height="968" alt="Screenshot_2026-05-06_13_41_08" src="https://github.com/user-attachments/assets/e1c05b88-9621-4631-890b-8077eb0f4c51" />
+
 
 
