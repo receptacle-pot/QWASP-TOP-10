@@ -86,6 +86,7 @@ Solution : Burp Suite Intruder Attack
 
 
 
+
 ## 3. Cross-Site Scripting (XSS)
 
 Description : Injecting malicious JavaScript into web pages. Cross-Site Scripting (XSS) is a web security vulnerability that allows an attacker to inject malicious client-side scripts—usually JavaScript—into web pages viewed by other users
