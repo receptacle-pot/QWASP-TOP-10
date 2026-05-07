@@ -86,3 +86,51 @@ Solution : Burp Suite Intruder Attack
 
 
 
+## 3. Cross-Site Scripting (XSS)
+
+Description : Injecting malicious JavaScript into web pages. Cross-Site Scripting (XSS) is a web security vulnerability that allows an attacker to inject malicious client-side scripts—usually JavaScript—into web pages viewed by other users
+
+Payload : <script>alert('XSS')</script>
+
+Impact :
+- Cookie theft
+- Session hijacking
+
+Potential Impacts : When a successful XSS attack occurs, the attacker can typically perform any action the victim is authorized to do:
+
+Session Hijacking : Stealing session cookies to impersonate the user.
+
+Data Theft : Accessing sensitive data like login credentials or private messages.
+
+Phishing : Displaying fake login forms to capture passwords.Defacement: Modifying the content and appearance of the website.
+
+Fix :
+- Input sanitization
+- Output encoding
+
+### Types of XSS attacks :
+There are three main types of XSS attacks. These are:
+
+-Reflected XSS : where the malicious script comes from the current HTTP request.
+-Stored XSS : where the malicious script comes from the website's database.
+-DOM-based XSS : where the vulnerability exists in client-side code rather than server-side code.
+
+### What can XSS be used for?
+An attacker who exploits a cross-site scripting vulnerability is typically able to:
+
+- Impersonate or masquerade as the victim user.
+- Carry out any action that the user is able to perform.
+- Read any data that the user is able to access.
+- Capture the user's login credentials.
+- Perform virtual defacement of the web site.
+- Inject trojan functionality into the web site.
+
+### Lab on Cross-Site Scripting XSS
+
+Lab: Reflected XSS into HTML context with nothing encoded
+
+This lab contains a simple reflected cross-site scripting vulnerability in the search functionality.
+To solve the lab, perform a cross-site scripting attack that calls the "alert" function.
+
+### Screenshots :
+
