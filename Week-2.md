@@ -134,3 +134,8 @@ To solve the lab, perform a cross-site scripting attack that calls the "alert" f
 
 ### Screenshots :
 
+<img width="1918" height="968" alt="Screenshot_2026-05-07_12_47_45" src="https://github.com/user-attachments/assets/b174c56f-d622-4377-b15d-3ff3e7c4e4d6" />
+
+<img width="1919" height="1035" alt="Screenshot 2026-05-07 184251" src="https://github.com/user-attachments/assets/63ba7dc2-fec7-421a-91b2-60254073796c" />
+
+
