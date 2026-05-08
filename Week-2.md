@@ -41,7 +41,7 @@ Performed SQL Injection on a shopping website to get access to all the items pre
 
 
 
-< br / >
+
 
 ## 2. Broken Authentication
 
