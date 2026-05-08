@@ -92,8 +92,13 @@ Solution : Burp Suite Intruder Attack
 
 ### Screenshot :
 
+### Portswigger : 
+
 <img width="1918" height="968" alt="Screenshot_2026-05-06_13_41_08" src="https://github.com/user-attachments/assets/e1c05b88-9621-4631-890b-8077eb0f4c51" />
 
+### OWASP Juice Shop :
+
+<img width="1920" height="1080" alt="Screenshot_2026-05-08_08_02_13" src="https://github.com/user-attachments/assets/02fe9052-b572-4cbe-bf78-cfbd47cf0f08" />
 
 
 
