@@ -34,6 +34,11 @@ Performed SQL Injection on a shopping website to get access to all the items pre
 
 <img width="1918" height="968" alt="Screenshot_2026-05-08_06_21_53" src="https://github.com/user-attachments/assets/f7c70a59-38d6-4c3c-8ffa-15a86708a82e" />
 
+### OWASP Juice Shop : 
+
+<img width="1920" height="1080" alt="Screenshot_2026-05-08_07_02_10" src="https://github.com/user-attachments/assets/f36eb449-5053-432c-a533-c5d46234ef82" />
+
+
 
 
 
