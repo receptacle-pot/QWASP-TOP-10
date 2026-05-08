@@ -41,7 +41,7 @@ Performed SQL Injection on a shopping website to get access to all the items pre
 
 
 
-
+  
 ## 2. Broken Authentication
 
 Description : Broken authentication is a critical security vulnerability occurring when applications improperly manage user sessions and identities, allowing attackers to compromise passwords, keys, or session tokens.
