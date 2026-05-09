@@ -37,3 +37,8 @@ Impact : Full system compromise
 Fix :
 - Disable debug
 - Harden server
+
+### Screenshot :
+
+<img width="1918" height="968" alt="Screenshot_2026-05-09_05_22_06" src="https://github.com/user-attachments/assets/5caa0a8c-32da-4914-88de-b5cd76c80573" />
+
