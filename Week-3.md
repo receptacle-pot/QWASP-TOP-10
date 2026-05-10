@@ -113,6 +113,10 @@ Remediation :
 
 ### Screenshot :
 
+
+<img width="1918" height="968" alt="Screenshot_2026-05-10_07_20_21" src="https://github.com/user-attachments/assets/95f72acf-cdb0-486f-beb4-35427422a242" />
+
+
 ### Lab - User role controlled by request parameter
 
 Target Goal - Access admin panel and use it to delete the user carlos.
