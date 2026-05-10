@@ -109,3 +109,25 @@ Remediation :
 - Deny access by default
 - Use secure session management
 - Regularly test authorization mechanisms
+
+
+### Screenshot :
+
+### Lab - User role controlled by request parameter
+
+Target Goal - Access admin panel and use it to delete the user carlos.
+
+The lab has an admin panel at /admin, which identifies administrators using a forgeable cookie.
+Solve the lab by accessing the admin panel and using it to delete the user carlos.
+You can log in to your own account using the following credentials: wiener:peter
+
+#### Solution :
+
+- Go to /admin and observe that you can't access the admin panel.
+- Go to the login page.
+- In Burp Proxy,check the response given my the /my-account.
+- In /my-account url check "Cookie : Admin : False"
+- Observe that the response sets the cookie Admin=false. Change it to Admin=true.
+- Load the admin panel and delete carlos
+
+
