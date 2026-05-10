@@ -78,3 +78,34 @@ Code used :
         </script>"></iframe>
     </body>
 </html>
+
+
+## 2. Broken Access Control
+
+Description : Broken Access Control occurs when users can access resources or perform actions beyond their authorized permissions.
+Broken access control is a top-tier web security vulnerability (ranked #1 in OWASP Top 10:2025) where application restrictions are not properly enforced, allowing users to act outside their authorized permissions
+
+Common Examples : 
+- Accessing admin pages without authorization
+- Viewing another user’s data
+- Forced browsing to restricted URLs
+- Privilege escalation attacks
+- Missing role-based access control checks
+
+Testing Performed : 
+- Tested direct access to admin endpoints
+- Modified user IDs in requests
+- Checked horizontal and vertical privilege escalation
+- Intercepted and modified requests using proxy tools
+
+Tools Used : 
+- Burp Suite
+- Web browser session testing
+- Manual parameter manipulation
+
+Remediation : 
+- Implement proper role-based access control (RBAC)
+- Validate user permissions on the server side
+- Deny access by default
+- Use secure session management
+- Regularly test authorization mechanisms
