@@ -135,3 +135,109 @@ You can log in to your own account using the following credentials: wiener:peter
 - Load the admin panel and delete carlos
 
 
+# Proof of Concept (PoC) Reports
+
+##  Week 1 – Environment Setup & Reconnaissance
+
+## PoC 1: DVWA / Juice Shop Setup Verification
+
+Objective : Set up a vulnerable web application environment for penetration testing practice.
+
+### Environment Used : 
+- DVWA
+- OWASP Juice Shop
+- Kali Linux / Windows
+- XAMPP or Docker
+- Burp Suite
+
+### Steps Performedb :
+- Installed DVWA/Juice Shop locally.
+- Configured database connection.
+- Started Apache and MySQL services.
+- Verified application access in browser.
+- Configured Burp Suite proxy with browser.
+
+### Result : The vulnerable web application environment was successfully deployed and accessible for security testing.
+
+
+## PoC 2: Reconnaissance & Spidering Using Burp Suite
+
+Objective : Identify application endpoints and hidden pages.
+
+### Steps to Reproduce :
+- Open Burp Suite and enable proxy interception.
+- Visit the target web application.
+- Browse through multiple pages manually.
+- Use Burp Spider/Crawler to map the application.
+- Analyze discovered URLs and parameters.
+
+### Findings : 
+- Login pages identified
+- Hidden directories discovered
+- Parameters available for testing
+- Session cookies captured
+
+### Impact : 
+Reconnaissance helps attackers understand the application structure and identify attack surfaces.
+
+### Recommendation : 
+- Disable unnecessary endpoints
+- Restrict directory listing
+- Use proper access controls
+
+
+
+## PoC 3: SQL Injection (SQLi)
+
+### Vulnerability : SQL Injection
+
+Description : User input was not sanitized properly, allowing SQL queries to be manipulated.
+
+### Steps to Reproduce : 
+- Navigate to the login/input page.
+- Enter the payload:
+- ' OR '1'='1
+- Submit the request.
+- Authentication bypass/data retrieval occurs.
+
+### Result : 
+Database queries were manipulated successfully.
+
+### Impact :
+
+- Attackers may:
+    Bypass authentication
+    Read sensitive data
+    Modify database content
+
+### Remediation :
+- Use prepared statements
+- Implement parameterized queries
+- Validate user input
+- PoC 4: Broken Authentication
+
+
+## PoC 4 : Weak Authentication Mechanism
+
+### Vulnerability : Weak Authentication Mechanism
+
+Description : Weak credentials and improper session management allowed unauthorized access.
+
+### Steps to Reproduce: 
+- Attempt login with default credentials:
+- admin:admin
+- Observe successful login.
+- Session token remained active after logout.
+
+
+###b Result : 
+Authentication weakness identified.
+
+### Impact :
+Attackers can gain unauthorized access to user accounts.
+
+### Remediation : 
+- Enforce strong passwords
+- Enable MFA
+- Implement secure session expiration
+
