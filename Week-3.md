@@ -135,9 +135,9 @@ You can log in to your own account using the following credentials: wiener:peter
 - Load the admin panel and delete carlos
 
 
-# Proof of Concept (PoC) Reports
 
-##  Week 1 – Environment Setup & Reconnaissance
+
+# Proof of Concept (PoC) Reports
 
 ## PoC 1: DVWA / Juice Shop Setup Verification
 
