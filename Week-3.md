@@ -141,7 +141,7 @@ You can log in to your own account using the following credentials: wiener:peter
 
 ## PoC 1: DVWA / Juice Shop Setup Verification
 
-Objective : Set up a vulnerable web application environment for penetration testing practice.
+#### Objective : Set up a vulnerable web application environment for penetration testing practice.
 
 ### Environment Used : 
 - DVWA
@@ -157,12 +157,14 @@ Objective : Set up a vulnerable web application environment for penetration test
 - Verified application access in browser.
 - Configured Burp Suite proxy with browser.
 
-### Result : The vulnerable web application environment was successfully deployed and accessible for security testing.
+### Result : 
+The vulnerable web application environment was successfully deployed and accessible for security testing.
+
 
 
 ## PoC 2: Reconnaissance & Spidering Using Burp Suite
 
-Objective : Identify application endpoints and hidden pages.
+#### Objective : Identify application endpoints and hidden pages.
 
 ### Steps to Reproduce :
 - Open Burp Suite and enable proxy interception.
@@ -191,7 +193,7 @@ Reconnaissance helps attackers understand the application structure and identify
 
 ### Vulnerability : SQL Injection
 
-Description : User input was not sanitized properly, allowing SQL queries to be manipulated.
+#### Description : User input was not sanitized properly, allowing SQL queries to be manipulated.
 
 ### Steps to Reproduce : 
 - Navigate to the login/input page.
@@ -204,7 +206,6 @@ Description : User input was not sanitized properly, allowing SQL queries to be 
 Database queries were manipulated successfully.
 
 ### Impact :
-
 - Attackers may:
     Bypass authentication
     Read sensitive data
@@ -221,7 +222,7 @@ Database queries were manipulated successfully.
 
 ### Vulnerability : Weak Authentication Mechanism
 
-Description : Weak credentials and improper session management allowed unauthorized access.
+#### Description : Weak credentials and improper session management allowed unauthorized access.
 
 ### Steps to Reproduce: 
 - Attempt login with default credentials:
