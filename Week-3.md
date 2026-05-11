@@ -231,7 +231,7 @@ Database queries were manipulated successfully.
 - Session token remained active after logout.
 
 
-###b Result : 
+### Result : 
 Authentication weakness identified.
 
 ### Impact :
@@ -242,3 +242,110 @@ Attackers can gain unauthorized access to user accounts.
 - Enable MFA
 - Implement secure session expiration
 
+
+### PoC 5: Cross-Site Scripting (XSS)
+
+### Vulnerability : Reflected/Stored XSS
+
+#### Description : The application failed to sanitize user input before rendering it in the browser.
+
+### Steps to Reproduce: 
+- Enter the payload:
+    <script>alert('XSS')</script>
+- Submit the form/input field.
+- JavaScript executed in browser.
+
+### Result
+XSS vulnerability successfully exploited.
+
+### Impact
+
+#### Attackers can:
+
+- Steal session cookies
+- Redirect users
+- Execute malicious scripts
+- Remediation
+- Sanitize user input
+- Encode output properly
+- Use Content Security Policy (CSP)
+
+
+## PoC 6: Sensitive Data Exposure
+
+### Vulnerability : Sensitive Information Disclosure
+
+#### Description : Sensitive information was transmitted or stored insecurely.
+
+### Steps to Reproduce : 
+
+- Intercept HTTP traffic using Burp Suite.
+- Observe sensitive data transmitted over HTTP.
+- Identify exposed credentials/session tokens.
+
+### Result
+Sensitive data exposure confirmed.
+
+### Impact
+
+#### Attackers may steal:
+
+- User credentials
+- Session cookies
+- Personal information
+
+### Remediation
+- Use HTTPS/TLS
+- Encrypt sensitive data
+- Avoid exposing sensitive information in responses
+
+
+## PoC 7: Security Misconfiguration
+
+### Vulnerability :  Improper Security Configuration
+
+#### Description : The server/application used insecure default settings.
+
+### Steps to Reproduce :
+
+- Scan application responses using Burp Suite.
+- Observe missing security headers:
+- X-Frame-Options
+- Content-Security-Policy
+- Identify exposed directories and debug information.
+
+### Result
+Security misconfiguration identified successfully.
+
+### Impact
+Attackers can exploit insecure settings to compromise the application.
+
+### Remediation
+
+- Remove default configurations
+- Hide debug information
+- Configure secure HTTP headers
+
+
+## PoC 8: Broken Access Control
+
+### Vulnerability : Unauthorized Access to Restricted Resources
+
+#### Description : Application failed to enforce authorization checks properly.
+
+### Steps to Reproduce : 
+- Login as a normal user.
+- Modify URL from:
+- $ /user/profile to $ /admin/dashboard
+- Access granted without authorization.
+
+### Result
+Privilege escalation vulnerability identified.
+
+### Impact
+Attackers may access administrative functions and sensitive data.
+
+### Remediation
+- Implement server-side authorization checks
+- Apply Role-Based Access Control (RBAC)
+- Deny access by default
