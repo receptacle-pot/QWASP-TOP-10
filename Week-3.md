@@ -139,6 +139,7 @@ You can log in to your own account using the following credentials: wiener:peter
 
 # Proof of Concept (PoC) Reports
 
+
 ## PoC 1: DVWA / Juice Shop Setup Verification
 
 #### Objective : Set up a vulnerable web application environment for penetration testing practice.
@@ -159,6 +160,7 @@ You can log in to your own account using the following credentials: wiener:peter
 
 ### Result : 
 The vulnerable web application environment was successfully deployed and accessible for security testing.
+
 
 
 
@@ -186,6 +188,7 @@ Reconnaissance helps attackers understand the application structure and identify
 - Disable unnecessary endpoints
 - Restrict directory listing
 - Use proper access controls
+
 
 
 
@@ -218,6 +221,7 @@ Database queries were manipulated successfully.
 - PoC 4: Broken Authentication
 
 
+
 ## PoC 4 : Weak Authentication Mechanism
 
 ### Vulnerability : Weak Authentication Mechanism
@@ -241,6 +245,7 @@ Attackers can gain unauthorized access to user accounts.
 - Enforce strong passwords
 - Enable MFA
 - Implement secure session expiration
+
 
 
 ## PoC 5: Cross-Site Scripting (XSS)
@@ -269,6 +274,7 @@ XSS vulnerability successfully exploited.
 - Sanitize user input
 - Encode output properly
 - Use Content Security Policy (CSP)
+
 
 
 ## PoC 6: Sensitive Data Exposure
@@ -300,6 +306,7 @@ Sensitive data exposure confirmed.
 - Avoid exposing sensitive information in responses
 
 
+
 ## PoC 7: Security Misconfiguration
 
 ### Vulnerability :  Improper Security Configuration
@@ -325,6 +332,7 @@ Attackers can exploit insecure settings to compromise the application.
 - Remove default configurations
 - Hide debug information
 - Configure secure HTTP headers
+
 
 
 ## PoC 8: Broken Access Control
