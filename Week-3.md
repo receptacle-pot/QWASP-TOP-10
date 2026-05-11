@@ -243,7 +243,7 @@ Attackers can gain unauthorized access to user accounts.
 - Implement secure session expiration
 
 
-### PoC 5: Cross-Site Scripting (XSS)
+## PoC 5: Cross-Site Scripting (XSS)
 
 ### Vulnerability : Reflected/Stored XSS
 
